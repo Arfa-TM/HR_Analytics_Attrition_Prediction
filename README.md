@@ -1,0 +1,29 @@
+# HR Analytics – Employee Attrition Prediction
+
+## 📌 Objective
+The aim of this project is to analyze employee data and predict attrition based on various work-related factors like job role, salary, overtime, work-life balance, and job satisfaction.
+
+## 📂 Dataset
+- **Source:** IBM HR Analytics Employee Attrition Dataset
+- The dataset contains employee-level data with features such as age, gender, department, salary, job satisfaction, years at company, etc.
+
+## 🔍 Project Workflow
+
+### 1. Data Collection
+- Imported the IBM employee attrition dataset.
+- Ensured data integrity and verified no missing critical information.
+
+### 2. Data Exploration
+- Identified common patterns for attrition across job roles, salary levels, and experience.
+- Analyzed how factors like overtime and income affect attrition.
+
+### 3. Data Preprocessing
+- Removed unnecessary columns like `EmployeeNumber`, `Over18`, `StandardHours`.
+- Handled categorical data using one-hot encoding (`pd.get_dummies`).
+- Split the dataset into train and test sets.
+
+### 4. Exploratory Data Analysis (EDA)
+- Visualized attrition distribution by job role and income.
+- Used heatmaps to identify correlations between attrition and other variables.
+
+#
